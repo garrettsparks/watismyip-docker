@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  watismyip:
+    image: garrettsparks/watismyip
+    container_name: watismyip
+    restart: always
+    environment:
+      - PORT=6060
+    ports:
+      - 6060:6060
+
